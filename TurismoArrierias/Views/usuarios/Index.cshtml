@@ -1,0 +1,62 @@
+﻿@model IEnumerable<usuario>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <h2>usuarios actuales</h2>
+        </div>
+        <div class="col-sm-6">
+            <a class="btn btn-dark d-flex" asp-action="Crear" asp-controller="usuarios">Agregar usuario</a>
+        </div>
+    </div>
+
+    <div class="row">
+        @if (Model.Count() == 0)
+        {
+            <div>
+                <h1 class="text-danger">No hay usuarios</h1>
+            </div>
+        }
+        else
+        {
+    <table class="table table-dark">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(x => x.id)</th>
+                <th>@Html.DisplayNameFor(x => x.tipo)</th>
+                <th>@Html.DisplayNameFor(x => x.nombre)</th>
+                <th>@Html.DisplayNameFor(x => x.edad)</th>
+                <th>@Html.DisplayNameFor(x => x.genero)</th>
+                <th>@Html.DisplayNameFor(x => x.lugarResidencia)</th>
+                <th>Editar/Borrar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var usuario in Model)
+            {
+            <tr>
+                <td>@usuario.id</td>
+                <td>@usuario.tipo</td>
+                <td>@usuario.nombre</td>
+                <td>@usuario.edad</td>
+                <td>@usuario.genero</td>
+                <td>@usuario.lugarResidencia</td>
+                <td>
+                    <a class="btn btn-outline-success" asp-action="Editar" asp-controller="usuarios" asp-route-id="@usuario.id">Editar</a>
+                    <a class="btn btn-outline-danger" asp-action="Borrar" asp-controller="usuarios" asp-route-id="@usuario.id">Borrar</a>
+                </td>
+            </tr>
+
+            }
+        </tbody>
+    </table>
+        }
+    </div>
+
+</div>
