@@ -8735,11 +8735,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nodierjose\\Desktop\\TurismoArrierias\\TurismoArrierias.csproj",
+      "projectUniqueName": "C:\\Users\\nodierjose\\Documents\\GitHub\\TurismoInteligente\\TurismoArrierias\\TurismoArrierias.csproj",
       "projectName": "TurismoArrierias",
-      "projectPath": "C:\\Users\\nodierjose\\Desktop\\TurismoArrierias\\TurismoArrierias.csproj",
+      "projectPath": "C:\\Users\\nodierjose\\Documents\\GitHub\\TurismoInteligente\\TurismoArrierias\\TurismoArrierias.csproj",
       "packagesPath": "C:\\Users\\nodierjose\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nodierjose\\Desktop\\TurismoArrierias\\obj\\",
+      "outputPath": "C:\\Users\\nodierjose\\Documents\\GitHub\\TurismoInteligente\\TurismoArrierias\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\nodierjose\\AppData\\Roaming\\NuGet\\NuGet.Config",

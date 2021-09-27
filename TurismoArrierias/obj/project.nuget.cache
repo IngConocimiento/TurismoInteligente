@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cVnhVSt8pbogVHJHIw2aSgpeBaaC/XQGQlmJ06TqlQ6KxT6l9PZne86EGxOn2KkVzua2rt/md4QYOYnF6PmBsA==",
+  "dgSpecHash": "HaTbWlElHlIHwQV/iqYOy+SXV6mmoaJOYADa+h2rPlnVThOI6NwTpn7O+dmTv4s//RnetFed6As7LxXTg2WNqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nodierjose\\Desktop\\TurismoArrierias\\TurismoArrierias.csproj",
+  "projectFilePath": "C:\\Users\\nodierjose\\Documents\\GitHub\\TurismoInteligente\\TurismoArrierias\\TurismoArrierias.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nodierjose\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\nodierjose\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

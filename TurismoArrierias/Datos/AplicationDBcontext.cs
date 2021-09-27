@@ -14,6 +14,9 @@ namespace TurismoArrierias.Datos
 
         }
         public DbSet<usuario> Usuario { get; set; }
+        public DbSet<preferencia> Preferencia { get; set; }
+        public DbSet<sitio> Sitio { get; set; }
+        public DbSet<ruta> Ruta { get; set; }
 
     }
 }
