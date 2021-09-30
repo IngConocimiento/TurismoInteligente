@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\daniel.gomez\\Documents\\GitHub\\TurismoInteligente\\TurismoArrieriasV2\\TurismoArrieriasV2.csproj": {}
+    "C:\\Users\\nodierjose\\Documents\\GitHub\\TurismoInteligente\\TurismoArrieriasV2\\TurismoArrieriasV2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\daniel.gomez\\Documents\\GitHub\\TurismoInteligente\\TurismoArrieriasV2\\TurismoArrieriasV2.csproj": {
+    "C:\\Users\\nodierjose\\Documents\\GitHub\\TurismoInteligente\\TurismoArrieriasV2\\TurismoArrieriasV2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\daniel.gomez\\Documents\\GitHub\\TurismoInteligente\\TurismoArrieriasV2\\TurismoArrieriasV2.csproj",
+        "projectUniqueName": "C:\\Users\\nodierjose\\Documents\\GitHub\\TurismoInteligente\\TurismoArrieriasV2\\TurismoArrieriasV2.csproj",
         "projectName": "TurismoArrieriasV2",
-        "projectPath": "C:\\Users\\daniel.gomez\\Documents\\GitHub\\TurismoInteligente\\TurismoArrieriasV2\\TurismoArrieriasV2.csproj",
-        "packagesPath": "C:\\Users\\daniel.gomez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\daniel.gomez\\Documents\\GitHub\\TurismoInteligente\\TurismoArrieriasV2\\obj\\",
+        "projectPath": "C:\\Users\\nodierjose\\Documents\\GitHub\\TurismoInteligente\\TurismoArrieriasV2\\TurismoArrieriasV2.csproj",
+        "packagesPath": "C:\\Users\\nodierjose\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nodierjose\\Documents\\GitHub\\TurismoInteligente\\TurismoArrieriasV2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\daniel.gomez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nodierjose\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
